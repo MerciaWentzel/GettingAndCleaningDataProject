@@ -34,9 +34,8 @@ run_analysis <- function() {
     
     ## common file paths
     strROOT <- paste(getwd(), "/UCI HAR dataset/", sep = "") ## top folder inherent to zip file
-    #strOUT <- paste(getwd(), "/run_analysis_out/", sep = "") ## folder for writing text files
-    strOUT <- getwd() ## folder for writing text files
-    
+    strOUT <- paste(getwd(), "/run_analysis_out/", sep = "") ## folder for writing text files
+
     ## lookup table for activities as provided in activity_labels.txt under strROOT;
     ## formatting the labels for purposes of comparison in functions create_tidy
     lookupACTIV <- vector(length = 6)
