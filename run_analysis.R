@@ -1,16 +1,17 @@
 ##==============================================================================
 ## function run_analysis:
 ## 
-## This is is the main function of the script of the same name, 
-## which forms part of a set of files described in README.md.
+## This is is the main function of the script of the same name.
 ##
-## The function commences by unzipping the dataset provided in the repository 
-## (note the download of the zip file may be activated by commenting in
-##  the two lines of code commencing with "strURL" and "download.file";
-##  tested only on Windows 10).
+## The function commences by unzipping the dataset referred to in README.md
+##
+## ( note: the download of the zip file may be activated by commenting in
+##   the two lines of code commencing with "strURL" and "download.file" -
+##   tested only on Windows 10, however).
 ##
 ## The function then proceeds to perform five steps outlined for the project, 
 ## i.e.
+##
 ## 1. Merge the training and the test sets to create one data set.
 ## 2. Extract only the measurements on the mean and standard deviation for each measurement.
 ## 3. Use descriptive activity names to name the activities in the data set.
